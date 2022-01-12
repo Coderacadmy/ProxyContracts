@@ -2,6 +2,18 @@
 
 -------------- Proxy Contracs commands --------------
     
+    
+    Proxy Commands
+    
+    npm init -y
+    npm install --save-dev hardhat
+    npx hardhat 
+    npm install --save-dev @openzeppelin/hardhat-upgrades
+    npm install --save-dev @nomiclabs/hardhat-ethers ethers
+    npm install --save-dev chai
+    npm install @openzeppelin/contracts-upgradeable
+    
+    
     npx hardhat run scripts/deploy.js
     npx hardhat console --network ropsten
     const Box = await ethers.getContractFactory("Box")
